@@ -1,0 +1,107 @@
+
+> fusion360-mcp-server@0.1.0 dev
+> tsx watch src/index.ts
+
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+Error [TransformError]: Transform failed with 1 error:
+/Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/apps/mcp-server/src/index.ts:46:23: ERROR: Expected ";" but found ":"
+    at failureErrorWithLog (/Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/node_modules/esbuild/lib/main.js:1467:15)
+    at /Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/node_modules/esbuild/lib/main.js:736:50
+    at responseCallbacks.<computed> (/Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/node_modules/esbuild/lib/main.js:603:9)
+    at handleIncomingPacket (/Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/node_modules/esbuild/lib/main.js:658:12)
+    at Socket.readFromStdout (/Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/node_modules/esbuild/lib/main.js:581:7)
+    at Socket.emit (node:events:507:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+
+Node.js v24.5.0
+4:59:16 AM [tsx] change in ./src/index.ts Rerunning...
+c
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+Error [TransformError]: Transform failed with 1 error:
+/Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/apps/mcp-server/src/index.ts:46:23: ERROR: Expected ";" but found ":"
+    at failureErrorWithLog (/Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/node_modules/esbuild/lib/main.js:1467:15)
+    at /Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/node_modules/esbuild/lib/main.js:736:50
+    at responseCallbacks.<computed> (/Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/node_modules/esbuild/lib/main.js:603:9)
+    at handleIncomingPacket (/Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/node_modules/esbuild/lib/main.js:658:12)
+    at Socket.readFromStdout (/Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/node_modules/esbuild/lib/main.js:581:7)
+    at Socket.emit (node:events:507:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+
+Node.js v24.5.0
+4:59:27 AM [tsx] change in ./src/index.ts Rerunning...
+c🔤 OCR Worker initialized successfully
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at startServer (/Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/apps/mcp-server/src/index.ts:395:16)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1976:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v24.5.0
+4:59:38 AM [tsx] change in ./src/index.ts Rerunning...
+c🔤 OCR Worker initialized successfully
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at startServer (/Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/apps/mcp-server/src/index.ts:395:16)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1976:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v24.5.0
+6:05:52 AM [tsx] change in ./src/index.ts Rerunning...
+c🔤 OCR Worker initialized successfully
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at startServer (/Users/admin/Documents/Documents - admin’s Mac Studio/Programming/Projects/Github/Fusion360-mcp/apps/mcp-server/src/index.ts:476:16)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1976:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v24.5.0
