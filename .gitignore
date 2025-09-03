@@ -1,0 +1,4 @@
+node_modules
+
+# ignore VS Code downloaded test app
+apps/vscode-extension/.vscode-test/
